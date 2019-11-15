@@ -1,0 +1,182 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: auto;
+	margin: auto;
+	color: #222222;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #000000;
+	height: 100vh;
+	background-attachment: fixed, fixed;
+}
+
+nav
+{
+    width: 1500px;
+		position: fixed;
+		margin-left: -220px;
+}
+
+nav ul
+{
+
+    overflow: auto;
+    margin: auto;
+}
+
+nav ul li
+{
+    border-right: 1px solid #e7ce3c;
+
+    float: left;
+		padding-bottom: 10px;
+		padding-top: 10px;
+    list-style: none;
+}
+
+nav ul li:last-child
+{
+    border-right: none;
+}
+
+.menu {
+	text-shadow:1px 1px 0 #444;
+	font-family: "Algerian";
+}
+nav ul li a:link, nav ul li a:visited
+{
+    width: 300px;
+    padding: 10px;
+    color: #fff;
+    display: block;
+    background-color: #000000;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 17px;
+		text-align: center;
+}
+
+nav ul li:hover a,nav ul li:active a
+{
+    color: #e7ce3c;
+    transition: color .75s;
+}
+nav ul li a.Current{
+    background-color: red;
+    cursor: default;    }
+
+.titles__first {
+	font-size: 33px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 150px;
+}
+.opacityPulse-css {
+    animation: opacityPulse 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 1;
+}
+
+.cars:first-child {
+	margin-top: 150px;
+}
+
+.cars a{
+	color: #e7ce3c;
+}
+
+.cars{
+	float: left;
+}
+img {
+	height: 125px;
+	width: 200px;
+	margin: -27px 0px auto;
+	border: 1px solid #BFBFBF;
+	padding: 5px;
+}
+
+h1 {
+	font-family: "Algerian";
+	font-size: 67px;
+	color: #e7ce3c;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+	animation: opacityPulse 2s ease-out;
+	animation-iteration-count: infinite;
+	opacity: 1;
+	margin-top: 150px;
+}
+@-webkit-keyframes opacityPulse {
+    0% {opacity: 0.1}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.1;}
+
+}
+
+.container
+{overflow:hidden;width:1000px}
+
+.box
+
+{white-space:nowrap}
+
+.box div
+{width:270px;
+height: 300px;
+float:left;
+margin-top:20px;
+margin-left: 55px;
+display:inline-block;
+border:1px solid white
+}
+
+#product{
+width:270px;
+height: 220px;
+margin-top:-1px;
+margin-left:-1px;
+float:left;
+background-color: #f7db27;
+position: relative;
+box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+#des{
+width:270px;
+height:80px;
+background-color:white;
+margin-top:4px;
+margin-left:-1px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button {
+	background: white;
+	color: white;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
